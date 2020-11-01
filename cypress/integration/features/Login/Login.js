@@ -25,7 +25,7 @@ Then('{string} should definitely be shown', (content)=>{
     .contains('password is incorrect')
 });
 
-//........................................................................................//
+//.........................................................................................//
 
 Given('I open LegalBox login page', ()=>{
     cy.visit('https://legalbox.ng/login')
